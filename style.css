@@ -1,0 +1,41 @@
+/* all selector  */
+
+*{
+    color:red;
+}
+
+/* class selector  . */
+.demo{
+    color:red;
+}
+
+.bg{
+    background-color: aqua;
+}
+
+/* class selector  . */
+
+/* #idname */
+#myFirstId{
+    color:grey;
+}
+
+#secondId{
+    background-color: pink;
+}
+
+/* #idname */
+
+
+/* element Selector */
+/* tagname */
+a{
+    color:tomato;
+}
+
+/* rwd */
+/* responsive web desing */
+/* cdn content delivery network */
+/* offline donwload link */
+
+

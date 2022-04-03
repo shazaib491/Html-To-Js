@@ -1,41 +1,55 @@
-/* all selector  */
+/* all selector */
+/* control + / */
 
-*{
+
+/* html element all style changes *  */
+
+/* element selector */
+/* particular element point  */
+/* h1{
+    color:yellow;
+} */
+/* element selector */
+
+
+/* class selector */
+/* .  */
+.firstClass{
+    /* color:#29686869; */
+}
+
+.secondClass{
+    /* background-color: blueviolet; */
+    /* background-image: url(./images/imas.jpeg); */
+    /* background-repeat: no-repeat; */
+    /* background-repeat:no-repeat ;
+    background-position: center;
+    height: 500px; */
+    /* background-attachment: fixed; */
+    /* width: 500px; */
+    /* background: red url(./images/imas.jpeg) no-repeat top center fixed; */
+
+}
+
+/* id selector */
+#demo{
     color:red;
 }
 
-/* class selector  . */
-.demo{
-    color:red;
-}
-
-.bg{
-    background-color: aqua;
-}
-
-/* class selector  . */
-
-/* #idname */
-#myFirstId{
-    color:grey;
-}
-
-#secondId{
+#demo1{
     background-color: pink;
 }
 
-/* #idname */
-
-
-/* element Selector */
-/* tagname */
-a{
-    color:tomato;
+.border{
+    border-style:double;
+    border-top-style: dotted;
+    border-left-style: solid;
+    border-right-style: groove;
+    border-left-color: aqua;
+    border-right-color: red;
+    border-bottom-color: green;
+    border-top-color: blue;
+    border-width: 10px;
+    
+    
 }
-
-/* rwd */
-/* responsive web desing */
-/* cdn content delivery network */
-/* offline donwload link */
-
-

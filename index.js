@@ -1,23 +1,14 @@
-
-
-
 // // console.log(no)
-// // // prashant 10 
+// // // prashant 10
 // // // error
 // // // not defined
-
 
 // // var no=10;
 // // console.log(no);
 
-
-
-
-
 // // // dynamic type / static programing
 // // // var varname=value
 // // // printf();
-
 
 // // console.log("Hello World")
 // // console.error("Error Occured")
@@ -43,7 +34,7 @@
 // // console.log(name)
 // // var no;
 
-// // // hoisting 
+// // // hoisting
 // // problem 1
 // var name="string"
 
@@ -51,13 +42,11 @@
 // var no=10
 // console.log(name)
 
-// // let const 
+// // let const
 // // redefined
 // var name="admin"
 
-
-
-// // 
+// //
 // var name="saman"
 
 // console.log(name)
@@ -69,11 +58,10 @@
 
 // console.log(name2)
 
-
 // // 4
 
 // // scoping 4
-// // 
+// //
 // {
 //     var no=10;
 // }
@@ -92,7 +80,6 @@
 // // }
 
 // // console.log(i)
-
 
 // // function name(){
 // //     var elem=10;
@@ -115,13 +102,11 @@
 
 // // console.log(sno)
 
-
 // for(let i=0; i<=5; i++){
 //     console.log(i);
 // }
 
 // // console.log(i);
-
 
 // const username="Admin";
 // // username="admin"
@@ -131,13 +116,10 @@
 //     console.log(sum)
 // }
 
-
 // console.log(5**2)
-let a=10;
+let a = 10;
 // let b=a;
 // b+=20;
-
-
 
 // // let name="Rahul"
 // // let lname="Gupta"
@@ -189,10 +171,10 @@ let a=10;
 // // let no=10;
 // // console.log(typeof no)
 
-// // while loop => 
+// // while loop =>
 // // do while loop
 // // for loop 1 se 100
-// // for of loop 
+// // for of loop
 // // for in loop
 // // no=10
 // // cnt=0;
@@ -203,7 +185,6 @@ let a=10;
 
 // // console.log(cnt);
 
-
 // let cnt=5;
 
 // do{
@@ -211,14 +192,13 @@ let a=10;
 //     cnt++;
 // }while(false);
 
-
 // for(let i=0; i<=10; i++){
 //     console.log(i)
 // }
 
 // function in javascript
-// function declaretion 
-// fucntion definition 
+// function declaretion
+// fucntion definition
 // function excution
 
 // function funcName(){
@@ -231,36 +211,120 @@ let a=10;
 // pass nothing return somthing
 // pass something return something
 
-// // pass nothing return nothing 
+// // pass nothing return nothing
 // function sum(){
 //     console.log(10+20)
 // }
 
 // sum();
 // pass nothing return nothing
-// the function which has no name 
+// the function which has no name
 // let sum=function(a,b=20){
 //     console.log(a+b)
 // }
 // sum(10,50);
 // anonymous type 2
-let sum=(a,b)=> a+b;console.log(sum(10,20))
-
+// let sum=(a,b)=> a+b;console.log(sum(10,20))
 
 // console.log(sum(10,20))
 
+// 0 1 2 3 4
+// console.log(arr.length)
+
+// for loop  for of
+// for(let i=0; i< arr.length; i++){
+//     console.log(arr[i])
+// }
+
+//   0   1
+//   1   2
+//   2   3
+//   3   google
+//   4   5
+
+// 10001 10002 10003 10004 10005
+
+// for(let i of arr){
+//     console.log(i)
+// }
+
+// passing a function as an argument to another function is known as callback
+// 0 1
+// foreach function
+// arr.forEach(function IteratreOnArray(iterateValue, index, copy) {
+    //   // console.log(copy[index])
+    //   console.log(copy[index] * 2);
+    // });
+    
+// console.log(arr);
+
+// iterate
+// iterate
+
+// iterateValue 1 2
 
 
+// map
+// anonymous function
+// regular function 
+// let func=function(){
+//     console.log("Hello Wolrd")
+// }
+
+// func()
+
+// fat arrow function
+// let func2=()=>{
+    //     console.log("Anonymous ");
+    // }
+    
+    // func2();
+    
+
+    
+    //1000
+    // let jrr=arr.map(iterateValue=> iterateValue * 2);
+    // console.log(jrr)
+    
+    // [1,2,3,4,5]
+    // [2,4,6,8,10]
+    
+    
+    //   console.log(jrr)
+    
+    // let element=arr.find(iterateValue=>iterateValue==3);
+
+    //   console.log(element)
+    
+    
+    
+    //   let filter=arr.filter(iterateValue=>iterateValue!=3) 
+    //     console.log(filter)
+    
+    
+    
+    
+    
+    //   let filter=arr.filter(function(iterateValue, index, copy) {
+        //     if(iterateValue!=3){
+            //         return iterateValue
+            //     }
+            //   });
+
+//   console.log(filter)
 
 
+// 1000
+let arr = [1, 2, 3, 4, 5];
+let drr=[...arr];//1000
+// 2000
 
 
+drr[1]=100;
 
 
-
-
-
-
+console.log(arr);
+console.log(drr);
 
 
 

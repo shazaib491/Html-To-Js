@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<style>
+    h1,h2{
+        display:inline;
+    }
+    span{
+        display: block;
+    }
+    ul{
+        /* list style type noon */
+        list-style-type: none;
+
+        margin: 0;
+        padding: 0;
+        /* black */
+        background-color: black;
+    }
+    /* nesting ul inside li  ul > li */
+    ul > li{
+        /* inline sizing */
+        display: inline-block;
+        height:20px;
+        margin-left: 30px;
+    }
+    /* nesting */
+    ul > li > a{
+        text-decoration: none;
+        color:white;
+    }
+    ul > li > a:hover{
+        text-decoration: none;
+        color:red;
+    }
+</style>
+<!-- 
+    <h1>
+        display Works
+    </h1>
+    <h2>
+        display works
+    </h2>
+
+    <span>
+        dfkjbfig
+    </span>
+    <span>ewkhjbisdj</span> -->
+
+    <ul>
+        <li>
+            <a href="">
+                Home
+            </a>
+        </li>
+        <li>
+            <a href="">
+                About
+            </a>
+        </li>
+        <li>
+            <a href="">
+                Services
+            </a>
+            </li>
+        <li>
+            <a href="">
+                Portfoli
+
+            </a>
+        </li>
+        <li>
+            <a href="">
+                Contacts
+            </a>
+        </li>
+    </ul>
+</body>
+</html>

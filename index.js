@@ -323,8 +323,78 @@ let drr=[...arr];//1000
 drr[1]=100;
 
 
-console.log(arr);
-console.log(drr);
+// console.log(arr);
+// console.log(drr);
+
+
+
+// object is collection of key and value pair
+// object literal
+const obj={
+    name:"Admin",
+    cls:12,
+    english:90,
+    hindi:90,
+    math:70
+}
+
+// console.log(obj.length)
+
+// for(let i=0;)
+for(let i in obj){
+    // console.log(obj[i])
+}
+
+
+let uname=obj.name;
+// let cls=obj.cls;
+// console.log(uname,cls)
+
+// object destructrating
+let { name:username,cls:clS,english:Angrezi,hindi:shdhHindi,math:Garit }=obj;
+
+// console.log(name)
+
+// it represent 
+let student={
+    name:'Prashant',
+    age:18,
+    dob:'2022/09/02',
+    doj:'2022/09/02',
+    // termplate literal
+    info:function info(){
+        // console.log('Username is '+this.name+'user age is '+this.age+'user dob is '+this.dob);
+        console.log(`Username is ${this.name} user age is  ${this.age} user dob is ${this.dob}`);
+    }
+}
+
+
+
+student.info()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
